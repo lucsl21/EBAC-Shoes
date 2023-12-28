@@ -103,10 +103,9 @@ section h2 {
     row-gap: 5%;
 }
 
-.loja .sobre {
-    display: grid;
-    grid-template-columns: (1, 100%);
-    
+.loja .sobre, #aline-foto {
+    display: inline-block;
+    grid-template-columns: (1, 100%);  
 }
 
 @media screen and (max-width: 1024px) {
